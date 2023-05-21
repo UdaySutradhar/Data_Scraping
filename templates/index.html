@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Scraper</title>
+</head>
+<body>
+    <h1>Weather Scraper</h1>
+    <form action="/weather" method="post">
+        <label for="location">Location:</label>
+        <input type="text" name="location" id="location" required>
+        <br>
+        <input type="checkbox" name="description" id="description">
+        <label for="description">Description</label>
+        <br>
+        <input type="checkbox" name="temp" id="temp">
+        <label for="temp">Temperature</label>
+        <br>
+        <input type="checkbox" name="humidity" id="humidity">
+        <label for="humidity">Humidity</label>
+        <br>
+        <input type="checkbox" name="timezone" id="timezone">
+        <label for="timezone">Timezone</label>
+        <br>
+        <input type="submit" value="Get Weather">
+    </form>
+</body>
+</html>
