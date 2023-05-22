@@ -16,11 +16,12 @@ This project demonstrates weather data scraping using a command-line interface (
 4.Web interface built with Flask for easy interaction
 
 Usage
-Clone the repository:
-git clone https://github.com/your-username/weather-data-scraping.git
 
-Install the required dependencies:
-pip install -r requirements.txt
+1.Clone the repository:
+git clone [https://github.com/your-username/weather-data-scraping.git](https://github.com/UdaySutradhar/Data_Scraping.git)
 
-Run the CLI:
-python weather_cli.py [location] [--description] [--temp] [--humidity] [--timezone]
+2.Run the Flask front-end:
+python app.py
+
+3.Access the weather scraping form:
+Open your web browser and go to an url like this 'http://localhost:5000', which will be shown when flask front end is run. Enter the location and select the desired weather options. Click "Get Weather" to retrieve the weather information.
